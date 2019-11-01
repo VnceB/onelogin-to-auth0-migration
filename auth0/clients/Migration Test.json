@@ -1,0 +1,7 @@
+{
+  "name": "Migration Test",
+  "is_first_party": true,
+  "oidc_conformant": true,
+  "callbacks": [],
+  "app_type": "spa"
+}

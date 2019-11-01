@@ -1,0 +1,25 @@
+{
+  "options": {
+    "customScripts": {
+      "login": "./login.js",
+      "get_user": "./get_user.js"
+    },
+    "enabledDatabaseCustomization": true,
+    "import_mode": true
+  },
+  "configuration": {
+    "ol_region": "##ONELOGIN_REGION##",
+    "ol_subdomain": "##ONELOGIN_SUBDOMAIN##",
+    "ol_api_client_id": "##ONELOGIN_API_CLIENT_ID##",
+    "ol_api_client_secret": "##ONELOGIN_API_CLIENT_SECRET##"
+  },
+  "strategy": "auth0",
+  "name": "onelogin-migration",
+  "is_domain_connection": false,
+  "realms": [
+    "onelogin-migration"
+  ],
+  "enabled_clients": [
+    "Migration Test"
+  ]
+}
